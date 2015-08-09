@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'lotus-router'
+gem 'lotus-controller'
+gem 'glia'
+gem 'cells'
+gem 'cells-haml'
+gem 'haml'
+gem 'actionview'
+gem 'request_store'
