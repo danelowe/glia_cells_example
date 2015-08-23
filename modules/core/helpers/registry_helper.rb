@@ -14,7 +14,7 @@ module Core
           end
 
           def exposures
-            RequestStore.store[:exposures]
+            RequestStore.store[:action_exposures]
           end
 
         end

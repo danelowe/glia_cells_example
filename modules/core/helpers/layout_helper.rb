@@ -1,6 +1,7 @@
 module Core
   module Helpers
     module Layout
+
       def render_cell(position, *args)
         begin
           cell(position, *args).render

@@ -1,12 +1,11 @@
 !!! 5
 %html
-  %head
-    %title= 'Cocktails Layout'
-    %script{type: 'text/javascript', src: '//code.jquery.com/jquery-1.11.3.min.js'}
+  %head= render_cell :head
   %body
     = render_cell :body_start
     %section.wrapper
       = render_cell :header
+      = render_cell :navigation
       .container
         = render_cell :content
     = render_cell :body_end

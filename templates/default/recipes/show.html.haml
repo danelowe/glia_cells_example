@@ -1,0 +1,8 @@
+%h1= recipe.name
+
+%div.recipe
+  %section= render_cell :ingredients
+
+  %section= render_cell :preparation
+%div.recipe_sidebar
+  = render_cell :sidebar

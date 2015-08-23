@@ -1,0 +1,8 @@
+%nav.sub_navigation
+  %ul
+    %li= link_to 'All Recipes', path(:recipes)
+    %li
+      = link_to category_name, category_url
+      %ul
+        - recipes.each do |recipe|
+          %li= link_to recipe.name, path(:recipe, recipe.key)
