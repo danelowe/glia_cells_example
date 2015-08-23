@@ -1,7 +1,7 @@
 # Glia Cells Example
 
 This is an example application showing how [Glia](https://github.com/danelowe/glia) can work 
-in conjunction with Cells to create a flexible layout with view models. 
+in conjunction with [Cells](https://github.com/apotonick/cells) to create a flexible layout with view models. 
 
 This example showcases the basic features of Glia
 
