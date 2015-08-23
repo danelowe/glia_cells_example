@@ -10,7 +10,7 @@ Start the app with `bundle exec rackup`
 ## Unsure how to achieve something with Glia?
 Just create an issue on this github project. 
 
-I will look at what you want to do, and consider adding examples to this app based on your feedback. 
+I/Someone will hopefully look at what you want to do, and consider adding examples to this app based on your feedback. 
 
 ## TODO:
 
